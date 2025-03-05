@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-{
+
     Console.WriteLine("INTEGERS");
     // Initializes an integer that multipies two integers
     int intMult = 6 * 45;
@@ -18,21 +18,21 @@
     // Initializes an integer that multipies two shorts
     short shortMult = 6 * 45;
    // Initialized an short that adds to short
-   int intAdd = 55 + 66;
-   // Prints the maximum and minimum of the two short  variables 
-   Console.WriteLine($"The max of {shortMult} and {shortAdd} is {Math.Min(ishortMult, shortAdd)}. " +
+   short shortAdd = 55 + 66;
+   // Prshorts the maximum and minimum of the two short  variables 
+   Console.WriteLine($"The max of {shortMult} and {shortAdd} is {Math.Min(shortMult, shortAdd)}. " +
     $"The min of the two is {Math.Min(shortMult, shortAdd)}.");
 
    // Initializes boolean to see if shortMult is greater than shortAdd
    bool isshortGreater = shortMult > shortAdd;
-  // Prints if shortMult is greater than shortAdd
+  // Prshorts if shortMult is greater than shortAdd
   Console.WriteLine($"{shortMult} is greater than {shortAdd}, {isshortGreater}.\n");
 
     Console.WriteLine("LONGS");
     // Initializes an long that multipies two long
     long longMult = 6 * 45;
     // Initialized an long adds to long
-    double doubleAdd = 55 + 66;
+    long longAdd = 55 + 66;
     // Prints the maximum and minimum of the two double variables 
     Console.WriteLine($"The max of {longMult} and {longAdd} is {Math.Max(longMult, longAdd)}. " +
         $"The min of the two is {Math.Min(longMult, longAdd)}.");
@@ -76,7 +76,7 @@
     // Initializes an decimal that multipies two decimal
     decimal decimalMult = (decimal)(6.25 * 45.15);
     // Initialized an decimal that adds to decimal
-    decimal decimalAdd = (decimal (55.66 + 66.55);
+    decimal decimalAdd = (decimal) (55.66 + 66.55);
     // Prints the maximum and minimum of the two decimal variables 
     Console.WriteLine($"The max of {decimalMult} and {decimalAdd} is {Math.Min(decimalMult, decimalAdd)}. " +
         $"The min of the two is {Math.Min(decimalMult, decimalAdd)}.");
@@ -85,4 +85,5 @@
     bool isdecimalGreater = decimalMult > decimalAdd;
     // Prdecimals if decimalMult is greater than decimalAdd
     Console.WriteLine($"{decimalMult} is greater than {decimalAdd}, {isdecimalGreater}.");
+     
 
